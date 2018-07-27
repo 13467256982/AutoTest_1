@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c46c0061-ec99-48d9-bf53-1c4b583b737c" name="Default" comment="测试报告">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_testng_extentsreport_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/src/main/java/com/tester/extend/demo/TestMethodsDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="c46c0061-ec99-48d9-bf53-1c4b583b737c" name="Default" comment="测试报告" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Chapter6/target/" />
@@ -116,6 +87,11 @@
             <path>
               <item name="AutoTest_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +286,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532658561148</updated>
-      <workItem from="1532658564062" duration="3647000" />
+      <workItem from="1532658564062" duration="5341000" />
     </task>
     <servers />
   </component>
@@ -332,7 +308,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3647000" />
+    <option name="totallyTimeSpent" value="5341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="6" width="1253" height="681" extended-state="1" />
