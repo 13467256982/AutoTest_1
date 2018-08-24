@@ -1,0 +1,80 @@
+[INFO ] 2018-08-24 17:01:14 [main] com.course.controller.Application - Starting Application on DESKTOP-BK4NEVB with PID 15568 (E:\git\Git\workspace\muke\AutoTest_1\Chapter11\target\classes started by lianxiang in E:\git\Git\workspace\muke\AutoTest_1)
+[INFO ] 2018-08-24 17:01:14 [main] com.course.controller.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2018-08-24 17:01:14 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17a7f733: startup date [Fri Aug 24 17:01:15 CST 2018]; root of context hierarchy
+[INFO ] 2018-08-24 17:01:14 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2018-08-24 17:01:14 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2018-08-24 17:01:14 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-08-24 17:01:14 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;"C:\ProgramData\Oracle\Java\javapath;";E:\apache-maven-3.0.5\bin;E:\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171;\bin;E:\git\Git\cmd;E:\apache-ant-1.10.4\bin;C:\Windows\System32;C:\sqlite;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\lianxiang\AppData\Local\Microsoft\WindowsApps;E:\opvn\OpenVPN\bin;;.]
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3243 ms
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:14 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:14 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-08-24 17:01:27 [main] com.course.controller.Application - Starting Application on DESKTOP-BK4NEVB with PID 11892 (E:\git\Git\workspace\muke\AutoTest_1\Chapter11\target\classes started by lianxiang in E:\git\Git\workspace\muke\AutoTest_1)
+[INFO ] 2018-08-24 17:01:27 [main] com.course.controller.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2018-08-24 17:01:27 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17a7f733: startup date [Fri Aug 24 17:01:27 CST 2018]; root of context hierarchy
+[INFO ] 2018-08-24 17:01:27 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2018-08-24 17:01:27 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2018-08-24 17:01:27 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-08-24 17:01:27 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;"C:\ProgramData\Oracle\Java\javapath;";E:\apache-maven-3.0.5\bin;E:\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171;\bin;E:\git\Git\cmd;E:\apache-ant-1.10.4\bin;C:\Windows\System32;C:\sqlite;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\lianxiang\AppData\Local\Microsoft\WindowsApps;E:\opvn\OpenVPN\bin;;.]
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:27 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-08-24 17:01:27 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-08-24 17:02:10 [main] com.course.controller.Application - Starting Application on DESKTOP-BK4NEVB with PID 8396 (E:\git\Git\workspace\muke\AutoTest_1\Chapter11\target\classes started by lianxiang in E:\git\Git\workspace\muke\AutoTest_1)
+[INFO ] 2018-08-24 17:02:10 [main] com.course.controller.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2018-08-24 17:02:10 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17a7f733: startup date [Fri Aug 24 17:02:10 CST 2018]; root of context hierarchy
+[INFO ] 2018-08-24 17:02:10 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2018-08-24 17:02:10 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2018-08-24 17:02:10 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-08-24 17:02:10 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;"C:\ProgramData\Oracle\Java\javapath;";E:\apache-maven-3.0.5\bin;E:\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171;\bin;E:\git\Git\cmd;E:\apache-ant-1.10.4\bin;C:\Windows\System32;C:\sqlite;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\lianxiang\AppData\Local\Microsoft\WindowsApps;E:\opvn\OpenVPN\bin;;.]
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2346 ms
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-08-24 17:02:10 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-08-24 17:02:10 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-08-24 17:08:05 [main] com.course.controller.Application - Starting Application on DESKTOP-BK4NEVB with PID 9828 (E:\git\Git\workspace\muke\AutoTest_1\Chapter11\target\classes started by lianxiang in E:\git\Git\workspace\muke\AutoTest_1)
+[INFO ] 2018-08-24 17:08:05 [main] com.course.controller.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2018-08-24 17:08:05 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17a7f733: startup date [Fri Aug 24 17:08:06 CST 2018]; root of context hierarchy
+[INFO ] 2018-08-24 17:08:05 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2018-08-24 17:08:05 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2018-08-24 17:08:05 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-08-24 17:08:05 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;"C:\ProgramData\Oracle\Java\javapath;";E:\apache-maven-3.0.5\bin;E:\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171;\bin;E:\git\Git\cmd;E:\apache-ant-1.10.4\bin;C:\Windows\System32;C:\sqlite;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\lianxiang\AppData\Local\Microsoft\WindowsApps;E:\opvn\OpenVPN\bin;;.]
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2664 ms
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-08-24 17:08:05 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-08-24 17:08:05 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2018-08-24 17:11:16 [main] com.course.controller.Application - Starting Application on DESKTOP-BK4NEVB with PID 5176 (E:\git\Git\workspace\muke\AutoTest_1\Chapter11\target\classes started by lianxiang in E:\git\Git\workspace\muke\AutoTest_1)
+[INFO ] 2018-08-24 17:11:16 [main] com.course.controller.Application - No active profile set, falling back to default profiles: default
+[INFO ] 2018-08-24 17:11:16 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17a7f733: startup date [Fri Aug 24 17:11:16 CST 2018]; root of context hierarchy
+[INFO ] 2018-08-24 17:11:16 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 2018-08-24 17:11:16 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 2018-08-24 17:11:16 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2018-08-24 17:11:16 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;"C:\ProgramData\Oracle\Java\javapath;";E:\apache-maven-3.0.5\bin;E:\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171;\bin;E:\git\Git\cmd;E:\apache-ant-1.10.4\bin;C:\Windows\System32;C:\sqlite;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\lianxiang\AppData\Local\Microsoft\WindowsApps;E:\opvn\OpenVPN\bin;;.]
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2191 ms
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2018-08-24 17:11:16 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2018-08-24 17:11:16 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
