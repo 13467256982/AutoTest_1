@@ -9,18 +9,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter10" />
         <module name="Chapter11" />
+        <module name="Chapter4" />
         <module name="Chapter5" />
         <module name="Chapter6" />
         <module name="Chapter9" />
+        <module name="Java_1" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="AutoTest_1" target="1.8" />
       <module name="Chapter10" target="1.8" />
       <module name="Chapter11" target="1.8" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="1.8" />
       <module name="Chapter9" target="1.8" />
+      <module name="Java_1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
