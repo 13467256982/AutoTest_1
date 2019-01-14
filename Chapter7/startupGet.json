@@ -2,7 +2,7 @@
   {
     "description": "模拟一个没有参数的get请求",
     "request": {
-      "uri": "/getdemo",
+      "uri": "/getDemo",
       "method": "get"
     },
     "response": {
@@ -12,22 +12,24 @@
       }
     }
   },
+
   {
     "description":"模拟一个带参数的get请求",
-    "request":{
-      "uri":"/getwithparm",
-      "method":"get",
-      "queries":{
-        "name":"huhansan",
-         "age":"18"
+    "request": {
+      "uri": "/getWithParam",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response":{
+      "text":"我胡汉三又回来了！",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+
     }
-  },
-  "response":{
-    "text":"我胡汉三又回来了！！！",
-    "headers":{
-      "Content-Type":"text/html;charset=gbk"
-    }
-}
+   }
   }
 
 ]
