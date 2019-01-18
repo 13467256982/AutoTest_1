@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46c0061-ec99-48d9-bf53-1c4b583b737c" name="Default" comment="测试报告">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extend/demo/ExtentTestNGIReporterListenerOld.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter6/target/classes/com/tester/extend/demo/TestMethodsDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" afterPath="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/target/classes/testng.xml" afterPath="$PROJECT_DIR$/Chapter6/target/classes/testng.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/Chapter6/test-output/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/test-output/index.html" afterPath="$PROJECT_DIR$/Chapter6/test-output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter6/test-output/report.html" afterPath="$PROJECT_DIR$/Chapter6/test-output/report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/startup1.json" afterPath="$PROJECT_DIR$/Chapter7/startup1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/startupGet.json" afterPath="$PROJECT_DIR$/Chapter7/startupGet.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/startupPost.json" afterPath="$PROJECT_DIR$/Chapter7/startupPost.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" afterPath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/基本操作说明" afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
@@ -51,12 +39,12 @@
     <favorites_list name="AutoTest_1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="基本操作说明" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter7/基本操作说明">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -65,18 +53,28 @@
       <file leaf-file-name="startupGet.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="1020">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startupPost.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="startupPost.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter7/startupPost.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="750">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startupWithRedirect.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -113,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/course/Bean/Date.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/course/Bean/User.java" />
-        <option value="$PROJECT_DIR$/Chapter10/src/main/java/com/course/server/MyPostMethod.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mysql.xml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" />
@@ -162,8 +157,11 @@
         <option value="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/Chapter7/startup1.json" />
         <option value="$PROJECT_DIR$/Chapter7/startupGet.json" />
-        <option value="$PROJECT_DIR$/Chapter7/基本操作说明" />
         <option value="$PROJECT_DIR$/Chapter7/startupPost.json" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/Chapter7/基本操作说明" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithHeaders.json" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithRedirect.json" />
       </list>
     </option>
   </component>
@@ -203,10 +201,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="665" />
-    <option name="y" value="67" />
-    <option name="width" value="1207" />
-    <option name="height" value="961" />
+    <option name="x" value="489" />
+    <option name="width" value="1471" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -257,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,7 +282,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -958,7 +955,10 @@
       <workItem from="1547174514477" duration="104000" />
       <workItem from="1547201076238" duration="4000" />
       <workItem from="1547453884793" duration="2210000" />
-      <workItem from="1547456358397" duration="3026000" />
+      <workItem from="1547456358397" duration="3994000" />
+      <workItem from="1547522385923" duration="1077000" />
+      <workItem from="1547693304972" duration="9587000" />
+      <workItem from="1547776619281" duration="1432000" />
     </task>
     <servers />
   </component>
@@ -995,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258686000" />
+    <option name="totallyTimeSpent" value="271750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +1007,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="665" y="67" width="1207" height="961" extended-state="0" />
+    <frame x="489" y="0" width="1471" height="1014" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1029,8 +1029,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2406577" sideWeight="0.49749374" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49177876" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27085853" sideWeight="0.49594095" order="6" side_tool="false" content_ui="tabs" x="592" y="414" width="997" height="177" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19790758" sideWeight="0.49187934" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.49594095" order="6" side_tool="false" content_ui="tabs" x="592" y="414" width="997" height="177" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16867469" sideWeight="0.49187934" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15867159" sideWeight="0.50812066" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1082,27 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/mylog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/event.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1410,6 +1389,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithHeaders.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupPost.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/基本操作说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter7/startup1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1418,26 +1435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/基本操作说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startupPost.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="436">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
