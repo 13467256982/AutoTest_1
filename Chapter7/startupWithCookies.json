@@ -34,7 +34,7 @@
     }
   },
   {
-  "description":"这是一个带cookies信息的postq请求",
+  "description":"这是一个带cookies信息的post请求",
   "request": {
     "uri":"/post/with/cookies",
     "method":"post",

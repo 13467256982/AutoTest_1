@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46c0061-ec99-48d9-bf53-1c4b583b737c" name="Default" comment="测试报告">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" afterPath="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter7/基本操作说明" afterPath="$PROJECT_DIR$/Chapter7/基本操作说明" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/pom.xml" afterPath="$PROJECT_DIR$/Chapter9/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" afterPath="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,51 +45,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MyCookiesForGet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="71" column="22" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCookiesForPost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="84" column="43" lean-forward="false" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startupWithCookies.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startupWithHeaders.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter7/startupWithHeaders.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="基本操作说明" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter7/基本操作说明">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startupGet.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter7/startupGet.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startupPost.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter7/startupPost.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startupWithRedirect.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startup1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter7/startup1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="47" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -111,12 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mysql.xml" />
-        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Application.java" />
-        <option value="$PROJECT_DIR$/Chapter11/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml" />
         <option value="$PROJECT_DIR$/logs/mylog.log" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java" />
@@ -158,17 +181,18 @@
         <option value="$PROJECT_DIR$/Chapter7/startup1.json" />
         <option value="$PROJECT_DIR$/Chapter7/startupGet.json" />
         <option value="$PROJECT_DIR$/Chapter7/startupPost.json" />
-        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
-        <option value="$PROJECT_DIR$/Chapter7/基本操作说明" />
         <option value="$PROJECT_DIR$/Chapter7/startupWithHeaders.json" />
         <option value="$PROJECT_DIR$/Chapter7/startupWithRedirect.json" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java" />
+        <option value="$PROJECT_DIR$/Chapter7/基本操作说明" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/testGet.java" />
+        <option value="$PROJECT_DIR$/Chapter7/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="ExpectedException" />
-    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -201,9 +225,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="width" value="1471" />
-    <option name="height" value="1014" />
+    <option name="x" value="644" />
+    <option name="y" value="140" />
+    <option name="width" value="1390" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -276,14 +301,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cookies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Chapter7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -330,40 +473,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml">
-    <configuration default="false" name="TelPhone2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MyCookiesForPost.testPostMethod">
+    <configuration default="false" name="MyCookiesForPost" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="imooc.*" />
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="imooc.TelPhone2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java_1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExpectedException" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter5" />
+      <module name="Chapter9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.ExpectedException" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -384,53 +507,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="TestMethodsDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyCookiesForPost.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tester.extend.demo.*" />
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Chapter6" />
+      <module name="Chapter9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.tester.extend.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.tester.extend.demo.TestMethodsDemo" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMethodsDemo.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tester.extend.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter6" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.tester.extend.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.tester.extend.demo.TestMethodsDemo" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -450,17 +540,88 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Chapter6" />
+    <configuration default="false" name="MyCookiesForPost.testGetWithCookies" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapter9" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="testGetWithCookies" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyCookiesForPost.testGetCookies" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapter9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="testGetCookies" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyCookiesForPost.testPostMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapter9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.course.httpclient.cookies" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="testPostMethod" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
@@ -866,19 +1027,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TelPhone2" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.test1" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.test2" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testGetWithCookies" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testGetCookies" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo.test1" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestMethodsDemo" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TelPhone2" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testPostMethod" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testGetCookies" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.testGetWithCookies" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.MyCookiesForPost.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -958,44 +1119,47 @@
       <workItem from="1547456358397" duration="3994000" />
       <workItem from="1547522385923" duration="1077000" />
       <workItem from="1547693304972" duration="9587000" />
-      <workItem from="1547776619281" duration="1432000" />
+      <workItem from="1547776619281" duration="4913000" />
+      <workItem from="1548040892508" duration="6240000" />
+      <workItem from="1548126407443" duration="9072000" />
+      <workItem from="1548215552451" duration="13807000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 15h 50m 11s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="MyCookiesForPost_testPostMethod - 2019.01.23 at 16h 32m 17s.xml">
+      <configuration name="MyCookiesForPost.testPostMethod" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 15h 56m 37s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet - 2019.01.22 at 16h 23m 30s.xml">
+      <configuration name="testGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 16h 00m 51s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet - 2019.01.22 at 16h 47m 23s.xml">
+      <configuration name="testGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 16h 03m 12s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet - 2019.01.22 at 18h 16m 51s.xml">
+      <configuration name="testGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 16h 04m 26s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet - 2019.01.23 at 15h 26m 46s.xml">
+      <configuration name="testGet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 16h 05m 42s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet_test2 - 2019.01.22 at 17h 22m 09s.xml">
+      <configuration name="testGet.test2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="E__Git_Git_workspace_muke_AutoTest_1_Chapter6_src_main_resources_testng_xml - 2019.01.08 at 17h 01m 19s.xml">
-      <configuration name="E:/Git/Git/workspace/muke/AutoTest_1/Chapter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="testGet_testGetCookies - 2019.01.23 at 14h 39m 36s.xml">
+      <configuration name="testGet.testGetCookies" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TelPhone_Test - 2018.12.05 at 17h 23m 02s.xml">
-      <configuration name="TelPhone.Test" configurationId="TestNG" />
+    <history-entry file="testGet_testGetCookies1 - 2019.01.22 at 16h 19m 29s.xml">
+      <configuration name="testGet.testGetCookies1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMethodsDemo - 2018.12.20 at 16h 41m 20s.xml">
-      <configuration name="TestMethodsDemo" configurationId="TestNG" />
+    <history-entry file="testGet_testGetCookies1 - 2019.01.22 at 17h 21m 39s.xml">
+      <configuration name="testGet.testGetCookies1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMethodsDemo_test1 - 2018.12.20 at 16h 41m 44s.xml">
-      <configuration name="TestMethodsDemo.test1" configurationId="TestNG" />
+    <history-entry file="testGet_testGetWithCookies - 2019.01.22 at 18h 16m 33s.xml">
+      <configuration name="testGet.testGetWithCookies" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271750000" />
+    <option name="totallyTimeSpent" value="304350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,7 +1171,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="0" width="1471" height="1014" extended-state="0" />
+    <frame x="644" y="140" width="1390" height="895" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,15 +1187,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38107753" sideWeight="0.4699248" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2406577" sideWeight="0.49749374" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5479632" sideWeight="0.49749374" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49177876" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22727273" sideWeight="0.49594095" order="6" side_tool="false" content_ui="tabs" x="592" y="414" width="997" height="177" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16867469" sideWeight="0.49187934" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4438964" sideWeight="0.49594095" order="6" side_tool="false" content_ui="tabs" x="592" y="414" width="997" height="177" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112782" sideWeight="0.49187934" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15867159" sideWeight="0.50812066" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1039,7 +1205,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38321677" sideWeight="0.4699248" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1061,7 +1226,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1082,34 +1247,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/java/com/course/controller/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mapper/mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1149,20 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1393,21 +1516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithHeaders.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1415,6 +1523,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startup1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1427,18 +1563,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startup1.json">
+    <entry file="file://$PROJECT_DIR$/Chapter9/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="496">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithRedirect.json">
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithHeaders.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="71" column="22" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/java/com/course/httpclient/cookies/MyCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="84" column="43" lean-forward="false" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter7/startupWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
           <folding />
         </state>
       </provider>

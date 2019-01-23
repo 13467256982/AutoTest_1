@@ -3,7 +3,7 @@ package com.course.httpclient.cookies;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
-import org.apache.http.client.HttpClient;
+
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.security.PrivateKey;
+
 import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -23,7 +23,8 @@ public class MyCookiesForGet {
     //用来存储cookies信息的变量
     private CookieStore store;
 
-   @BeforeTest
+
+    @BeforeTest
     public void beforeTest(){
        bundle =ResourceBundle.getBundle("application", Locale.CANADA);
        url=bundle.getString("test.url");
@@ -52,7 +53,6 @@ public class MyCookiesForGet {
             System.out.println("cookie name ="+name
             +"; cookie value ="+value);
 
-
         }
 
     }
@@ -65,6 +65,7 @@ public class MyCookiesForGet {
 
         //设置cookies信息
         client.setCookieStore(this.store);
+
         HttpResponse response= client.execute(get);
 
         //获取响应的状态码
